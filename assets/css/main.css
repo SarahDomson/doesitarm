@@ -104,6 +104,24 @@ a{
     width: 65%;
 }
 
+#callToAction p {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#callToAction h1 {
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+#callToActionButton {
+    border: 1px solid black;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
 .zeromq{
     font-size: 1.1rem;
 }
@@ -133,12 +151,12 @@ a{
 
 
 #device-support{
-    margin-top: 23rem;
+    margin-top: 20rem;
     
 }
 
 #device-support > h2{
-    font-size: 1.6rem;
+    font-size: 30px;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -148,10 +166,10 @@ a{
     text-align: center;
 }
 
-
-
-.margintop{
-    margin-top: 20%;
+.report {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10%;
 }
 
 .marginbottom{
