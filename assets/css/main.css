@@ -2,21 +2,69 @@
     margin: 0px;
     padding: 0px;
     font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
-    font-weight: 200;
+    color: #d1d5db;
 }
+body{
+    box-sizing: border-box;
+    padding-top: 135px;
+}
+
+
+.container{
+    margin: auto;
+    width: 72%;
+}
+
+
+.border{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    border: 1px solid white ;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.links > .mt-20, .firstlink > .mt-20{
+    margin-top: 20px;
+    color: #d1d5db;
+    font-size: 0.8rem;
+}
+
+.links{
+    margin-right: 10px;
+    border-left: 1px solid #434c59;
+    padding-left: 10px;
+   
+} 
+
+.firstlink{
+    padding-right: 10px;
+}
+
 
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #272b2f;
+    padding: 10px;
+    
 }
+
 
 .text-sm{
     font-size: .875rem;
 }
 
 .text-xl {
-    font-size: 1.25rem;
+    font-size: 1.40rem;
     line-height: 1.75rem;
 }
 
@@ -26,14 +74,16 @@ a{
 }
 
 #other-nav-link{
-    background-color: black;
-    color: white;
+    background-color: black;  
     padding: 5px;
     border-radius: 5px;
+    font-size: 0.9rem;
 }
 
-.margin{
-    margin-left: 15px;
+#other-nav-link > a{
+    color: #d1d5db;
+    padding: 3px 7px;
+    font-size: 0.7rem;
 }
 
 .underline{
@@ -42,13 +92,123 @@ a{
     display: block;
 }
 
-#device-support{
-    color: white;
-    text-align: center;
-    margin: auto;
-    width: 70%;
+.u-line{
+    text-decoration: underline;
 }
+
 
 #callToAction{
     text-align: center;
+    font-size: 1.3rem;
+    margin: auto;
+    width: 65%;
 }
+
+.zeromq{
+    font-size: 1.1rem;
+}
+
+
+.bg-darkest{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.f-2{
+    font-size: 3rem;
+    line-height: 60px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.view{
+    border:1px solid #1d1e21;
+    background-color: #222326;
+    padding: 7px 17px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    box-shadow: -0.25rem -0.25rem 0.5rem #ffffff12, 0.25rem 0.25rem 0.5rem #0000001f, -0.75rem -0.75rem 1.75rem #ffffff12, 0.75rem 0.75rem 1.75rem #0000001f, inset 8rem 8rem 8rem #0000000d, inset -8rem -8rem 8rem #ffffff0d;
+}
+
+
+#device-support{
+    margin-top: 23rem;
+    
+}
+
+#device-support > h2{
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.center{
+    text-align: center;
+}
+
+
+
+.margintop{
+    margin-top: 20%;
+}
+
+.marginbottom{
+    margin-bottom: 20px;
+}
+.footer{
+    margin-top: 6.5rem;
+    padding-bottom: 50px;
+}
+
+.font500, nav{
+    font-weight: 500;
+}
+
+.p-left{
+   padding-right: 10px;
+}
+
+nav > .b-shadow:hover{
+    background-color: #191a1d;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: -0.25rem -0.25rem 0.5rem #ffffff12, 0.25rem 0.25rem 0.5rem #0000001f, -0.75rem -0.75rem 1.75rem #ffffff12, 0.75rem 0.75rem 1.75rem #0000001f, inset 8rem 8rem 8rem #0000000d, inset -8rem -8rem 8rem #ffffff0d;
+}
+
+
+nav > div .p-10{
+    padding: 3px 3px;
+}
+
+.report{
+    font-size: 0.8rem;
+}
+
+.update{
+    border:1px solid #1d1e21;
+    background-color: #212225;
+    padding: 2px 10px;
+    font-size: 0.7rem;
+    width: 20%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 17rem;
+    margin-bottom: 6rem;
+    box-shadow: -0.25rem -0.25rem 0.5rem #ffffff12, 0.25rem 0.25rem 0.5rem #0000001f, -0.75rem -0.75rem 1.75rem #ffffff12, 0.75rem 0.75rem 1.75rem #0000001f, inset 8rem 8rem 8rem #0000000d, inset -8rem -8rem 8rem #ffffff0d;
+}
+
+form{
+    display: none;
+    
+}
+
+.display-form:hover form{
+    display: block;
+}
+
+.w-20 > .update{
+    color: white;
+}
+
