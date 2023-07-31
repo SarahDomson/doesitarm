@@ -116,10 +116,27 @@ a{
     font-weight: 700;
 }
 
-#callToActionButton {
-    border: 1px solid black;
-    margin-top: 50px;
-    font-weight: 400;
+#callToAction a {
+  background-color: black;
+  border: 1px solid rgb(59, 140, 246, 0.5);
+  border-radius: 10px;
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+   
+}
+
+#callToAction a:hover {
+    border: 1px solid rgb(59, 140, 246, 0.5);
+    background-color: rgb(59, 140, 246, 0.5);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    transition-duration: .15s;
+    transition-timing-function: ease;
 }
 
 .zeromq{
@@ -139,16 +156,6 @@ a{
     margin-bottom: 40px;
     
 }
-
-.view{
-    border:1px solid #1d1e21;
-    background-color: #222326;
-    padding: 7px 17px;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    box-shadow: -0.25rem -0.25rem 0.5rem #ffffff12, 0.25rem 0.25rem 0.5rem #0000001f, -0.75rem -0.75rem 1.75rem #ffffff12, 0.75rem 0.75rem 1.75rem #0000001f, inset 8rem 8rem 8rem #0000000d, inset -8rem -8rem 8rem #ffffff0d;
-}
-
 
 #device-support{
     margin-top: 20rem;

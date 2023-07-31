@@ -15,7 +15,3 @@ body{
     color: rgb(209 213 219);
 }
 
-#callToActionButton:hover{
-    background: #808bed;
-    border: none;
-}
