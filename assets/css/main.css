@@ -58,6 +58,18 @@ nav{
     
 }
 
+.apple {
+    font-size: 20px;
+}
+
+.apple:hover {
+     background-color: #1d1e21;
+     border-radius: 5px;
+     border: 1px solid black;
+     width: 100px;
+     height: 100px;
+     box-shadow: #272b2f;
+}
 
 .text-sm{
     font-size: .875rem;
@@ -90,6 +102,7 @@ a{
     text-decoration: underline;
     color: white;
     display: block;
+    margin-top: 20px;
 }
 
 .u-line{
@@ -127,14 +140,13 @@ a{
   display: inline-block;
   font-size: 22px;
   margin: 4px 2px;
-  cursor: pointer;
-   
+  cursor: pointer; 
 }
 
 #callToAction a:hover {
     border: 1px solid rgb(59, 140, 246, 0.5);
     background-color: rgb(59, 140, 246, 0.5);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition-duration: .15s;
     transition-timing-function: ease;
 }
