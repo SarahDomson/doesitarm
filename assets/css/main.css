@@ -58,19 +58,6 @@ nav{
     
 }
 
-.apple {
-    font-size: 20px;
-}
-
-.apple:hover {
-     background-color: #1d1e21;
-     border-radius: 5px;
-     border: 1px solid black;
-     width: 100px;
-     height: 100px;
-     box-shadow: #272b2f;
-}
-
 .text-sm{
     font-size: .875rem;
 }
